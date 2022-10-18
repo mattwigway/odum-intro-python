@@ -1,0 +1,85 @@
+---
+title: Introduction to Python
+author: Matt Bhagat-Conway
+format:
+    revealjs:
+        theme: [default, unc.scss]
+        width: 1920
+        height: 1080
+        logo: UNC_logo_RGB.png
+---
+
+# About me
+
+- Assistant Professor of City and Regional Planning and Quantitative Methods Consultant in the Odum Institute
+- PhD in Geography from Arizona State
+- Worked as a software developer prior to graduate school
+
+# What is Python?
+
+::: {.incremental}
+- Python is a _programming language_
+    - Series of text-based instructions for a computer to perform
+- Python is a _dynamic_ language
+    - No compilation step, no need to determine types of variables beforehand
+- Unlike R or SAS, Python is a _general purpose_ language
+    - Not specifically designed for scientific computing
+    - We'll be discussing Python for data analysis, but it is also heavily used in web development and other domains
+:::
+
+# Why program?
+
+Programming allows your analysis to be 
+- Reproducible
+- Easy to see how data have been manipulated
+- Easy to modify procedure
+- More data manipulation procedures available
+
+# Why program in Python?
+
+- Excellent data manipulation libraries available
+- Python is the _de facto_ standard for machine learning
+- Since Python is a general purpose language, Python can be more flexible than special purpose languages
+- Python syntax is similar to other general-purpose languages, making it easier to switch languages
+- Python has a lower learning curve than many languages
+- Many online resources to improve your Python skills
+
+# Why not program in Python?
+
+- Statistical packages are more developed in R
+- Python can be slow if you're developing your own algorithms rather than using a library
+- Library installation can be more complicated than with other languages
+
+# Scientific computing in Python
+
+- Since Python is a general purpose language, scientific programming in Python relies heavily on libraries
+- `pandas` for tabular data access
+- `numpy` for numerical analysis
+- `matplotlib` for plotting
+- `scikit-learn` and `statsmodels` for statistics and machine learning
+
+# `pandas`
+
+- Provides a data frame implementation
+- Reads and writes many tabular formats
+- Provides split-apply-combine functionality (we'll cover this later)
+
+# `numpy`
+
+- Provides multidimensional arrays and fast math for numeric data
+
+# `matplotlib`
+
+- Provides plotting functionality
+
+# `statsmodels`
+
+- Provides many parametrics statistical models
+    - e.g. linear regression, logistic regression
+
+# `scikit-learn`
+
+- Provides most common machine learning models
+    - e.g. boosting, random forests
+
+
